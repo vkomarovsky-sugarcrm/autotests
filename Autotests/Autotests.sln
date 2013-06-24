@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3F4B4ACE-CF6D-4EE1-A85F-BD7E2474842E}"
+	ProjectSection(SolutionItems) = preProject
+		Autotests.vsmdi = Autotests.vsmdi
+		Local.testsettings = Local.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autotests.Utilities", "Autotests.Utilities\Autotests.Utilities.csproj", "{574C34F7-C509-42C5-9131-16B7B023113A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autotests.WebPages", "Autotests.WebPages\Autotests.WebPages.csproj", "{32E95D12-F0BB-42A6-B0FD-4971B4954F5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Autotests.Suites", "Autotests.Suites\Autotests.Suites.csproj", "{739A7A11-D258-4AC7-A2AE-014C9081AD91}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 4
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs19
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Autotests.Suites\\Autotests.Suites.csproj
+		SccProjectName1 = Autotests.Suites
+		SccLocalPath1 = Autotests.Suites
+		SccProjectUniqueName2 = Autotests.Utilities\\Autotests.Utilities.csproj
+		SccProjectName2 = Autotests.Utilities
+		SccLocalPath2 = Autotests.Utilities
+		SccProjectUniqueName3 = Autotests.WebPages\\Autotests.WebPages.csproj
+		SccProjectName3 = Autotests.WebPages
+		SccLocalPath3 = Autotests.WebPages
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = Autotests.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{574C34F7-C509-42C5-9131-16B7B023113A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{574C34F7-C509-42C5-9131-16B7B023113A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{574C34F7-C509-42C5-9131-16B7B023113A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{574C34F7-C509-42C5-9131-16B7B023113A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32E95D12-F0BB-42A6-B0FD-4971B4954F5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32E95D12-F0BB-42A6-B0FD-4971B4954F5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32E95D12-F0BB-42A6-B0FD-4971B4954F5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32E95D12-F0BB-42A6-B0FD-4971B4954F5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{739A7A11-D258-4AC7-A2AE-014C9081AD91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{739A7A11-D258-4AC7-A2AE-014C9081AD91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{739A7A11-D258-4AC7-A2AE-014C9081AD91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{739A7A11-D258-4AC7-A2AE-014C9081AD91}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
